@@ -7,7 +7,7 @@ ENV MYSQL_DATABASE iroomdb
 ENV MYSQL_USER iRoomUser
 ENV MYSQL_PASSWORD realdayo1
 
-RUN yum -yt update && yum -y install vim
+RUN yum -y update && yum -y install vim
 
 EXPOSE 3306
 
